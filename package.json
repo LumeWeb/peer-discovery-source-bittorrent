@@ -1,0 +1,17 @@
+{
+    "name": "@lumeweb/peer-discovery-source-bittorrent",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@types/b4a": "^1.6.0",
+        "@types/node": "^18.11.17",
+        "prettier": "^2.8.1",
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "@lumeweb/peer-discovery": "https://git.lumeweb.com/LumeWeb/peer-discovery.git",
+        "b4a": "^1.6.1",
+        "bittorrent-dht": "^11.0.1",
+        "bittorrent-dht-sodium": "^1.2.0",
+        "sha.js": "^2.4.11"
+    }
+}
