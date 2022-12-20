@@ -2,7 +2,7 @@ import DHT from "bittorrent-dht";
 import { Peer, PeerDiscovery } from "@lumeweb/peer-discovery";
 import eddsa from "bittorrent-dht-sodium";
 import sha from "sha.js";
-import * as Buffer from "buffer";
+import type { Buffer } from "buffer";
 import b4a from "b4a";
 
 export default class BitTorrentSource {
